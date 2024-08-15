@@ -1,0 +1,39 @@
+.body{
+    background: #d9e0e9;
+}
+.navbar{
+    background-color: #052c65;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: white;
+    bottom: -5px;
+    left: 0;
+    transition: width .3s linear;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.card{
+    background-color: #052c65;
+}
+.form{
+    background-color: #052c65;
+}
+
+.btn-group{
+    background-color: #052c65;
+    margin-left: 65px;
+}
+.dropdown-menu{
+    background-color: #052c65;
+}
+.dropdown-item:hover{
+    background-color: #0445a4;
+}

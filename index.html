@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Assignment</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+            <!---navbar--->
+<nav class="navbar p-3 navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-white  fst-italic" href="#"><span class="fs-3 text-info">M</span>y Assignment</a>
+
+
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+                <li class="nav-item me-3">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Product</a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link text-white" href="#">Service</a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link text-white" href="#">About Us</a>
+                </li><li class="nav-item ms-3">
+                    <a class="nav-link text-white" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+ <!--button-->
+
+    <h1 class="text-center mt-4 text-decoration-underline">Buttons</h1>
+        <div class="d-flex justify-content-center mt-4">
+            <button type="button" class="btn btn-primary me-2 btn rounded-5 ">Sing Up</button>
+            <button type="button" class="btn btn-secondary me-2">Sing In</button>
+            <button type="button" class="btn btn-success me-2">Log In</button>
+            <button type="button" class="btn btn-link">Link</button>
+            <button type="button" class="btn btn-danger btn rounded-5 me-2">Confirm</button>
+
+
+
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+            <button type="button" class="btn btn-outline-primary btn rounded-5 me-2">Create Account</button>
+            <button type="button" class="btn btn-outline-warning me-2">Confirm</button>
+            <button type="button" class="btn btn-outline-success me-2">Hire Me</button>
+            <button type="button" class="btn btn-danger me-2" disabled>Submit</button>
+            <button type="button" class="btn btn-outline-info btn rounded-5 me-2">Apply Now</button>
+        </div>
+
+
+                    <!--card-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-5 ">
+            <h1 class=" text-center text-decoration-underline">Card</h1>
+            <div class="card border-0">
+                <div class="card mb-2 border-0"  style="width: auto ;">
+                    <img src="./image.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white">Web Development</h5>
+                        <p class="card-text text-white">Web developers create
+                            functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site performance and traffic. Front-end developers focus on the user-facing side of their work, while back-end developers make websites functional and secure. Full-stack developers handle both front-end and back-end tasks.
+                            Entry-level web developers typically maintain,
+                            troubleshoot, or create websites.
+
+
+
+                        </p>
+                            <a href="#" class="btn btn-outline-primary text-white">Read More</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+                <!--form-->
+
+        </div>
+        <div class="col-7 ">
+            <h1 class=" text-center text-decoration-underline">Form</h1>
+            <div class="form rounded-3">
+                <form class=" row g-3 mt-2 ms-1 me-1 ">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label text-white">First Name</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label text-white">Last
+                            Name</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div><div class="col-md-6">
+                    <label for="inputEmail4" class="form-label text-white">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label text-white">
+                            Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label text-white">Address
+                        </label>
+                        <input type="text" class="form-control" id="inputAddress" >
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2"
+                               class="form-label text-white">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" >
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label text-white">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label text-white">State
+                        </label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label text-white">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label text-white">Default file input example</label>
+
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label text-white"
+                                   for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit"
+                                class="btn btn-outline-primary text-white mb-3 me-5">Sign
+                            in</button>
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+                    <!--list Group--->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-6 ">
+            <h1 class="text-center text-decoration-underline">List Group</h1>
+
+                <div class="list-group list-group-horizontal">
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-success">Part-1</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Part-2</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Part-3</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info">Part-4</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Part-5</a>
+
+                </div>
+
+                <ol class="list-group list-group-numbered mt-2">
+                    <li class="list-group-item active">Bangladesh</li>
+                    <li class="list-group-item">India</li>
+                    <li class="list-group-item">Pakistan</li>
+                    <li class="list-group-item">Nepal</li>
+                    <li class="list-group-item">Bhutan</li>
+                </ol>
+
+                <ol class="list-group list-group-numbered mt-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-danger">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Apple</div>
+                            Quantity
+                        </div>
+                        <span class="badge text-bg-light rounded-pill ">140</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-warning">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Orange</div>
+                            Quantity
+                        </div>
+                        <span class="badge text-bg-light rounded-pill">100</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-info">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Mango</div>
+                            Quantity
+                        </div>
+                        <span class="badge text-bg-light rounded-pill">95</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-success">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Lemon</div>
+                            Quantity
+                        </div>
+                        <span class="badge text-bg-light rounded-pill">66</span>
+                    </li>
+                </ol>
+
+
+
+
+        </div>
+
+            <!---Table--->
+            <div class="col-6">
+                <h1 class="text-center text-decoration-underline"> Table</h1>
+
+                <table class="table table-striped table-hover table-bordered  ">
+                    <thead>
+                    <tr class="table-dark">
+                        <th scope="col">SL</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Salary</th>
+                        <th scope="col">Summery</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mahir</td>
+                        <td>10,000</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Talha</td>
+                        <td>12,000</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Tanzim</td>
+                        <td>15,000</td>
+                        <td>Unpaid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Tasnim</td>
+                        <td>18,000</td>
+                        <td>Unpaid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Sadia</td>
+                        <td>20,000</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Nuha</td>
+                        <td>21,000</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Supti</td>
+                        <td>22,000</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Asiya</td>
+                        <td>23,000</td>
+                        <td>Unpaid</td>
+                    </tr>
+                    <tr>
+
+                        <th scope="row">9</th>
+                        <td>Samiya</td>
+                        <td>25,000</td>
+                        <td>Unpaid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>Saif</td>
+                        <td>27,000</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td>Sajid</td>
+                        <td>28,000</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td>Sahel</td>
+                        <td>30,000</td>
+                        <td>Paid</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+
+    </div>
+
+</div>
+
+                    <!--Progress bar---->
+
+<div class="container mt-3 mb-5">
+    <div class="row">
+        <div class="col-4 ">
+            <h2 class="text-center text-decoration-underline "> progress-bar</h2>
+            <div class="progress mt-3" role="progressbar" aria-label="Info striped example" aria-valuenow="50"
+                 aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped bg-info text-dark" style="width: 80%">80%</div>
+            </div>
+
+        </div>
+
+                    <!--pagination---->
+
+        <div class="col-5 ">
+            <h2 class="text-center text-decoration-underline">  pagination</h2>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination ms-5">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item"><a class="page-link" href="#">7</a></li>
+                    <li class="page-item"><a class="page-link" href="#">8</a></li>
+                    <li class="page-item"><a class="page-link" href="#">9</a></li>
+                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+                    <li class="page-item"><a class="page-link" href="#">11</a></li>
+                        <a class="page-link" href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span></a>
+
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+                    <!--Dropdown Menu---->
+
+        <div class="col-3  ">
+            <h2 class="text-center text-decoration-underline"> Dropdown Menu</h2>
+            <div class="btn-group  ">
+                <button class="btn text-white btn-lg " type="button">
+                    Contact Us
+                </button>
+                <button type="button"
+                        class="btn btn-lg dropdown-toggle text-white dropdown-toggle-split"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-white" href="#">Address</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Contact Number</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Location</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+            <script src="bootstrap.bundle.js"></script>
+</body>
+</html>
